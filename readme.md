@@ -9,32 +9,24 @@ Interactive User Interface: A simple interface (using Streamlit) for users to in
 Modular Design: The project is structured with modular components for easy maintenance and extension.
 
 ## Project Structure
-pdf_interpreter_project/
-│
-├── README.md                   # Project description and instructions
-├── requirements.txt            # Dependencies
-├── .gitignore                  # Git ignore file
-├── main.py                     # Entry point for the application
-├── config.py                   # Configuration settings (optional)
-│
-├── src/                        # Source code directory
-│   ├── __init__.py             # Marks directory as a package
-│   ├── pdf_processing.py       # PDF text extraction logic
-│   ├── nlp_processing.py       # NLP logic for understanding and answering questions
-│   ├── ui.py                   # Code for the user interface (e.g., Streamlit or Tkinter)
-│   └── utils.py                # Utility functions
-│
-├── models/                     # Pre-trained models or custom model files
-│   └── __init__.py             # Marks directory as a package
-│
-├── tests/                      # Unit and integration tests
-│   ├── __init__.py             # Marks directory as a package
-│   ├── test_pdf_processing.py  # Tests for PDF processing module
-│   ├── test_nlp_processing.py  # Tests for NLP processing module
-│   └── test_ui.py              # Tests for UI module
-│
-└── data/                       # Sample PDF files or data files
-    └── example.pdf             # Example PDF for testing
+pdfbuddy/
+├── README.md                      # Project description and instructions
+├── requirements.txt               # Dependencies
+├── environment.yml
+├── main.py                        # Entry point for the application
+├── src/                           # Source code directory
+│ ├── init.py                      # Marks directory as a package
+│ ├── config.py                    # Configuration settings (optional)
+│ ├── pdf_processing.py 
+│ ├── nlp_processing.py            # NLP logic for understanding and answering questions
+│ ├── utils.py                     # Utility functions
+│ ├── ui.py                        # Code for the user interface (e.g., Streamlit or Tkinter)
+├── logs/
+│ └── app.log
+├── output/
+├── .gitignore                     # Git ignore file
+└── pdfbuddy/                      # Virtual environment (created using Anaconda or venv)
+
 
 ## Installation
 ### Prerequisites
