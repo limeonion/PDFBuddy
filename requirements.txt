@@ -1,0 +1,19 @@
+# PDF processing
+PyMuPDF  # or the latest stable version
+
+# Natural Language Processing
+spacy
+transformers
+
+# Streamlit (for UI)
+streamlit==1.26.0
+
+# Additional NLP dependencies
+torch  # Required for transformers (ensure compatibility with transformers version)
+sentencepiece  # Required for certain transformer models
+
+# Testing
+pytest
+
+# Optional: For handling various encodings in PDFs
+chardet
